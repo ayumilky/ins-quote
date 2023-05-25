@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Quotes</title>
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=codepen">
+    <title>Some inspirational QUOTES! </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -31,13 +30,20 @@
         </div>
         <!-- Buttons -->
         <div class="button-container">
+            <div class="left-container">
             <button class="twitter-button" id="twitter" title="Tweet This!">
                 <i class="fab fa-twitter"></i>
             </button>
+            <button class="play-button" id="play" title="play This!">
+                <i class="fa fa-play"></i>
+            </button>
+        </div>
             <button id="new-quote">New Quote</button>
         </div>
     </div>
     
+<!-- Hidden audio -->
+<audio id="audio" controls hidden></audio>
 <!-- Loader -->
 <div class="loader" id="loader"></div>
 </div>

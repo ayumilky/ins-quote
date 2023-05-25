@@ -139,6 +139,11 @@ body {
     justify-content: space-between;
 }
 
+.left-container{
+    display: flex;
+    justify-content: left;
+}
+
 button{
     cursor: pointer;
     font-size: 1.2rem;
@@ -161,6 +166,9 @@ button:active{
     transform: translate(0,0.3rem);
     box-shadow: 0 0.1rem rgba(109, 129, 114, 0.65);
 }
+.twitter-button{
+    margin-right: 10px;
+}
 
 .twitter-button:hover{
     color: #38a1f3;
@@ -170,6 +178,18 @@ button:active{
     font-size: 1.5rem;
 }
 
+.play-button:hover{
+    color:var(--primary-variant);
+}
+
+.play-button:disabled{
+    cursor: default;
+    filter: brightness(50%);
+}
+
+.fa-play{
+    font-size: 1.5rem;
+}
 
 
 /* Loader */
